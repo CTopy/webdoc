@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "../scss/styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/_functions.scss",
+		"../scss/_mixins.scss",
+		"../scss/_nav.scss"
+	],
+	"sourcesContent": [
+		"@import './functions';\r\n@import './mixins';\r\n@import './nav';",
+		"",
+		"",
+		".page--labo .page--labo,\r\n.page--centre .page--centre,\r\n.page--pas-tir .page--pas-tir,\r\n.page--hangar .page--hangar,\r\n.page--musee .page--musee {\r\n    text-decoration: underline;\r\n}\r\n\r\nbody {\r\n    position: relative;\r\n}\r\n\r\nnav {\r\n    ul {\r\n        text-align: center;\r\n    }\r\n    \r\n    li {\r\n        list-style: none;\r\n    }\r\n    \r\n    max-width: 500px;\r\n    height: auto;\r\n    background: {\r\n        image: url(../../assets/images/backgrounds/nav.png);\r\n        size: contain;\r\n    }\r\n}"
+	],
+	"mappings": ";AGAA,AAAY,WAAD,CAAC,WAAW;AACvB,AAAc,aAAD,CAAC,aAAa;AAC3B,AAAe,cAAD,CAAC,cAAc;AAC7B,AAAc,aAAD,CAAC,aAAa;AAC3B,AAAa,YAAD,CAAC,YAAY,CAAC;EACtB,eAAe,EAAE,SAAU;CAC9B;;;AAED,AAAA,IAAI,CAAC;EACD,QAAQ,EAAE,QAAS;CACtB;;;AAED,AAAA,GAAG,CAAC;EASA,SAAS,EAAE,KAAM;EACjB,MAAM,EAAE,IAAK;EACb,UAAU,AAGV,CAAC,AAFG,KAAK,EAA6C,4CAAC;EADvD,UAAU,AAGV,CAAC,AADG,IAAI,EAAE,OAAQ;CAErB;;;AAfD,AACI,GADD,CACC,EAAE,CAAC;EACC,UAAU,EAAE,MAAO;CACtB;;;AAHL,AAKI,GALD,CAKC,EAAE,CAAC;EACC,UAAU,EAAE,IAAK;CACpB",
+	"names": []
+}

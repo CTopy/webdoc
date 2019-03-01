@@ -1,0 +1,28 @@
+.page--labo .page--labo,
+.page--centre .page--centre,
+.page--pas-tir .page--pas-tir,
+.page--hangar .page--hangar,
+.page--musee .page--musee {
+    text-decoration: underline;
+}
+
+body {
+    position: relative;
+}
+
+nav {
+    ul {
+        text-align: center;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    max-width: 500px;
+    height: auto;
+    background: {
+        image: url(../../assets/images/backgrounds/nav.png);
+        size: contain;
+    }
+}

@@ -1,0 +1,33 @@
+/* line 1, H:/MMI 2/Webdoc/styles/scss/_nav.scss */
+.page--labo .page--labo,
+.page--centre .page--centre,
+.page--pas-tir .page--pas-tir,
+.page--hangar .page--hangar,
+.page--musee .page--musee {
+  text-decoration: underline;
+}
+
+/* line 9, H:/MMI 2/Webdoc/styles/scss/_nav.scss */
+body {
+  position: relative;
+}
+
+/* line 13, H:/MMI 2/Webdoc/styles/scss/_nav.scss */
+nav {
+  max-width: 500px;
+  height: auto;
+  background-image: url(../../assets/images/backgrounds/nav.png);
+  background-size: contain;
+}
+
+/* line 14, H:/MMI 2/Webdoc/styles/scss/_nav.scss */
+nav ul {
+  text-align: center;
+}
+
+/* line 18, H:/MMI 2/Webdoc/styles/scss/_nav.scss */
+nav li {
+  list-style: none;
+}
+
+/*# sourceMappingURL=../css/styles.map */
